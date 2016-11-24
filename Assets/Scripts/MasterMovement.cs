@@ -22,7 +22,7 @@ public class MasterMovement : MonoBehaviour {
 	public float Movement(float multiplier, bool isCar)
 	{
 		if (isCar == true) {
-			speed = multiplier;
+			speed = multiplier; 
 		} else {
 			speed = SpeedSlider.value * multiplier;
 		}
