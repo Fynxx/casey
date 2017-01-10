@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\CarSpawner.cs" />
      <Compile Include="Assets\Scripts\CollisionCheck.cs" />
      <Compile Include="Assets\Scripts\EnvironmentMovement.cs" />
+     <Compile Include="Assets\Scripts\ForwardMovement.cs" />
+     <Compile Include="Assets\Scripts\FullScreenSlider.cs" />
      <Compile Include="Assets\Scripts\MasterMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
