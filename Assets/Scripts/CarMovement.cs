@@ -10,7 +10,7 @@ public class CarMovement : MasterMovement {
 	// Use this for initialization
 	void Start () {
 		SpeedMultiplier = Random.Range (0f, 20f);
-		SpeedSlider = GameObject.Find ("SpeedSlider").GetComponent<Slider> ();
+//		SpeedSlider = GameObject.Find ("SpeedSlider").GetComponent<Slider> ();
 		isCar = true;
 	
 	}

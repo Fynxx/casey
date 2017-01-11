@@ -18,7 +18,7 @@ public class EnvironmentMovement : MasterMovement {
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody> ();
-		SpeedSlider = GameObject.Find ("SpeedSlider").GetComponent<Slider> ();
+//		SpeedSlider = GameObject.Find ("SpeedSlider").GetComponent<Slider> ();
 		SpeedMultiplier = 20;
 		prefab1 = (GameObject) Resources.Load ("Prefabs/CityBlock", typeof(GameObject));
 		prefab2 = (GameObject) Resources.Load ("Prefabs/CityBlock2", typeof(GameObject));

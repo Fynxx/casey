@@ -25,7 +25,7 @@ public class CarSpawner : MonoBehaviour {
 
 		if (Time.time > nextspawn) {
 			nextspawn = Time.time + spawnrate;
-			carPrefabSpawnLocation = new Vector3 (random, 2, 70);
+			carPrefabSpawnLocation = new Vector3 (random, 1, 70);
 			Instantiate (carPrefab, carPrefabSpawnLocation, Quaternion.identity);
 		}
 	}
