@@ -6,12 +6,14 @@ public class FullScreenSlider : MonoBehaviour {
 
 	public float speed;
 	public float standardFov;
+	public float minSpeed;
 	public Transform slider;
 	public Text testYValue;
 
 	void Start(){
-		speed = 0.2f;
+		speed = 0.5f;
 		standardFov = 50;
+		DollyZoom ();
 	}
 
 	void Update() {
@@ -24,12 +26,13 @@ public class FullScreenSlider : MonoBehaviour {
 	float SpeedSlider(){
 
 		Ray ray = Camera.main.ScreenPointToRay (Input.GetTouch (0).position);
-		speed = (Input.GetTouch (0).position.y / 600);
+		speed = (minSpeed + (Input.GetTouch (0).position.y / 1200));
 
 		switch (Input.GetTouch(0).phase)
 		{
 		case TouchPhase.Began:
 			if (Physics.Raycast (ray)) {
+				
 				return speed;
 			} else {
 				return 0f;

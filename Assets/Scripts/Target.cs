@@ -19,7 +19,7 @@ public class Target : MonoBehaviour {
 
 //		transform.Translate((Vector3.forward * 1) * Time.deltaTime * minSpeed * SpeedSlider.value);
 
-		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2.5f, 2.5f), CaseysHeight, transform.position.z);
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -3f, 3f), CaseysHeight, transform.position.z);
 
 //		float xPos = transform.position.x;
 //		if (xPos <= -3) {

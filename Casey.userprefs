@@ -2,13 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FullScreenSlider.cs">
     <Files>
+      <File FileName="Assets/Scripts/CarMovement.cs" Line="13" Column="75" />
       <File FileName="Assets/Scripts/Target.cs" Line="9" Column="1" />
       <File FileName="Assets/Scripts/CarSpawner.cs" Line="28" Column="51" />
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="19" Column="15" />
       <File FileName="Assets/Scripts/ForwardMovement.cs" Line="20" Column="93" />
-      <File FileName="Assets/Scripts/FullScreenSlider.cs" Line="23" Column="47" />
-      <File FileName="Assets/Scripts/MasterMovement.cs" Line="3" Column="1" />
-      <File FileName="Assets/Scripts/EnvironmentMovement.cs" Line="26" Column="16" />
+      <File FileName="Assets/Scripts/FullScreenSlider.cs" Line="73" Column="12" />
+      <File FileName="Assets/Scripts/MasterMovement.cs" Line="26" Column="45" />
+      <File FileName="Assets/Scripts/EnvironmentMovement.cs" Line="21" Column="75" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
